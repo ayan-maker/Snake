@@ -7,6 +7,7 @@
 //游戏的一些参数设置
 enum {boundary=50,winmark=10};
 int ss=100;
+char sss='j';
 struct  node//将蛇的身体当成图中的点组成
 {
     int index[2];//当前点的位置,第一个是横坐标，第二个是纵坐标
